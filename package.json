@@ -1,5 +1,5 @@
 {
-  "name": "aha-cli",
+  "name": "ahaschool-cli",
   "version": "0.0.1",
   "description": "A simple CLI for creating your projects",
   "bin": {
@@ -8,6 +8,19 @@
   "keywords": [
     "aha"
   ],
+  "author": {
+    "name": "lorinzhang",
+    "email": "lorinzhang@163.com",
+    "url": "https://github.com/zlj002"
+  },
+  "files": [
+    "bin",
+    "commands",
+    "logo.png",
+    "templates.json",
+    "utils.js"
+  ],
+  "main": "bin/aha",
   "license": "MIT",
   "dependencies": {
     "chalk": "^1.1.3",

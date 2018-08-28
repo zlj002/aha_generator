@@ -5,7 +5,7 @@
 
 # 安装
 ```
-npm install aha -g
+npm install ahaschool-cli -g
 ```
 或者
 ```

@@ -16,7 +16,7 @@ program
 
 program
   .command('add')
-  .description('Add a new template')
+  .description('新增一个模板')
   .alias('a')
   .action(() => {
     require(res('add'))
@@ -24,7 +24,7 @@ program
 
 program
   .command('list')
-  .description('List all the templates')
+  .description('现有模板列表')
   .alias('l')
   .action(() => {
     require(res('list'))
@@ -32,7 +32,7 @@ program
 
 program
   .command('init')
-  .description('Generate a new project')
+  .description('生成项目')
   .alias('i')
   .action(() => {
     require(res('init'))
@@ -40,19 +40,19 @@ program
 
 program
   .command('delete')
-  .description('Delete a template')
+  .description('删除模板')
   .alias('d')
   .action(() => {
     require(res('delete'))
   })
 
-program
-  .command('map')
-  .description('Place files to diffirent position')
-  .alias('m')
-  .action(() => {
-    require(res('map'))
-  })
+// program
+//   .command('map')
+//   .description('Place files to diffirent position')
+//   .alias('m')
+//   .action(() => {
+//     require(res('map'))
+//   })
 
 program.parse(process.argv)
 

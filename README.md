@@ -24,7 +24,7 @@ npm link
 
   Commands:
 
-    add|a      新增一个模板
+    add|a      新增一个模板,注意，此地址不是clone地址，规则应该是 [github/gitlab/Bitbucket]:[账户名]/[仓库名]
     list|l     现有模板列表
     init|i     生成项目
     delete|d   删除模板

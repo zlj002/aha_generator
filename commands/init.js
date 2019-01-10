@@ -53,6 +53,8 @@ module.exports = prompt(question).then(({ name, project, place }) => {
   const gitBranch = tplList[name]['branch']
   const spinner = ora('正在安装...')
   spinner.start()
+//   let addr = `${gitPlace}#${gitBranch}`+`${place}/${project}`
+//   console.log(addr)
   download(`${gitPlace}#${gitBranch}`, `${place}/${project}`, { clone: true }, (err) => {
     if (err) {
       console.log(chalk.red(err))

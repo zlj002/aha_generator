@@ -22,7 +22,7 @@ const question = [
   {
     type: 'input',
     name: 'place',
-    message: '请输入模板git地址:',
+    message: '请输入模板git地址(规则[github/gitlab/Bitbucket]:[账户名]/[仓库名]):',
     validate (val) {
       if (val !== '') {
         return true
